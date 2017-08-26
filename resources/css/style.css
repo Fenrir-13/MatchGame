@@ -1,0 +1,61 @@
+/* Imported Fonts */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/ElUAY9q6T0Ayx4zWzW63VFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Universal Settings */
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  background-color: rgb(255,242,242)
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32,64,86)
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(32,64,86)
+}
+
+p {
+  font-size: 1rem;
+  color: rgb(74,74,74)
+}
+
+/* class(es) */
+.container-fluid {
+  margin-top: 5.25rem;
+  background-color: rgb(255,242,242)
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5rem;
+  width: auto;
+  background-color: rgb(32,64,86);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.number {
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgb(255,255,255);
+}
+
+/* id(s) */
